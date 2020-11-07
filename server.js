@@ -6,7 +6,7 @@ const cookieSession = require('cookie-session');
 const mongoose = require('mongoose');
 const passport = require('passport');
 
-const authRoute = require('./Routes/authRoutes');
+const authRoute = require('./routes/authRoutes');
 
 const { MONGODB_URI } = require('./config/config');
 
